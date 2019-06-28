@@ -33,8 +33,8 @@ export default {
 
 <style lang="scss" scoped>
   .wishlist-btn {
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     border: 3px solid pink;
     border-radius: 50%;
   }
