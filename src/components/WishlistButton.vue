@@ -1,6 +1,7 @@
 <!-- The button component which adds the clicked item to the wishlist array in store -->
 <template lang="pug">
-  .wishlist-btn(@click="toggleWishlist(item)", v-bind:style="{backgroundColor: activeColor}")
+  .wishlist-btn.d-flex.align-items-center(@click="toggleWishlist(item)", v-bind:style="{backgroundColor: activeColor}")
+    .heart-icon
 </template>
 
 <script>
@@ -37,5 +38,14 @@ export default {
     border: 3px solid pink;
     border-radius: 50%;
   }
-</style>
 
+  .heart-icon {
+    -webkit-mask-image: url(../assets/heart.svg);
+    mask-image: url(../assets/heart.svg);
+    display: block;
+    margin: auto;
+    height: 24px;
+    width: 24px;
+    background-color: black;
+  }
+</style>
