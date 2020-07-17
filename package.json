@@ -13,7 +13,7 @@
     "core-js": "^2.6.5",
     "eslint-utils": "^1.4.2",
     "jquery": "^3.4.1",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.19",
     "lodash.defaultsdeep": "^4.6.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
